@@ -3,10 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/feather-icons"></script>
   <link href="./main.css" rel="stylesheet">
   <title>Razorpay clone</title>
 </head>
 <body>
+    <!-- NAVBAR -->
     <nav class="bg-deepBlue">
         <div class="relative w-[1080px] mx-auto flex items-center justify-evenly ">
 
@@ -98,6 +102,136 @@
         </div>
 
     </nav>
+
+    <!-- ABOUT SECTION -->
+    <section class="relative bg-deepBlue">
+        <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+            <!-- left part -->
+            <div class=" text-white font-mullish space-y-8">
+                <h1 class=" font-bold text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="text-[18px] leading-7 opacity-70">
+                    Accept payments from customers. Automate payouts to vendors & employees. 
+                    Never run out of working capital.
+                </p>
+                <button class="bg-lightBlue text-white py-[14px] px-[18px] rounded-md font-mullish font-bold
+                 hover:bg-lightBlue500 transition-all duration-200">
+                    Sign Up Now</button>
+            </div>
+
+            <!-- right part -->
+            <img src="./images/hero-illustration (1).jpg" alt="" class=" w-full max-w-[680px]">
+        </div>
+
+        <!--Shape part-->
+        <div
+        class="absolute w-full left-0 right-0 top-[98%] md:-right-2 z-[1000]">
+        <img
+          src="./images/hero-shape.svg"
+          loading="lazy"
+          class="w-full object-fill z-10"
+        />
+      </div>
+
+    </section>
+
+    <!-- feature section -->
+    <section class="mt-[100px] md:mt-[190px] relative overflow-hidden">
+      <img
+        src="./images/feature-section1-dottedrows.png"
+        alt=""
+        loading="lazy"
+        width="233"
+        height="167"
+        class="absolute -z-[100] -top-[8rem] left-[10rem] hidden md:inline-block"
+      />
+      <img
+        src="./images/feature-section1-dottedrows2.png"
+        alt=""
+        loading="lazy"
+        width="233"
+        height="167"
+        class="absolute -z-[100] top-[3rem] right-0 rotate-180 hidden md:inline-block"
+      />
+
+      <div class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative overflow-hidden pt-4">
+        <!-- Heading Desktop -->
+        <h2 class="hidden md:block font-mullish text-center text-2xl leading-[1.2] font-bold">
+          Accept Payments with Razorpay Payment Suite
+        </h2>
+
+        <!-- Heading Mobile -->
+        <h2
+          class="inline-block text-center md:hidden font-mullish text-[2.5rem] leading-[1.2] font-extrabold mx-auto"
+        >
+          Explore Razorpay Payment Suite
+        </h2>
+        <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6 md:mb-20"></div>
+
+        <!-- content box -->
+        <div class="w-full min-h-[520px] bg-white flex md:border border-lightGray rounded-md relative p-4 md:p-10 py-12">
+          <!-- left section -->
+          <div class="flex flex-col justify-between w-full">
+            <h3 class="font-mullish text-xl md:leading-10 md:text-[28px] font-bold md:max-w-[500px] max-w-[190px] ">
+              Supercharge your business with the all-powerful 
+              <span class="text-lightBlue">Payment Gateway</span>
+            </h3>
+            <ul class="font-mullish space-y-2">
+              <li class="flex items-center space-x-2">
+                <img src="./images/check.svg" alt="" class="text-greenLight">
+                <span>100+ Payment Methods</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <img src="./images/check.svg" alt="" class="text-greenLight">
+                <span>Industry Leading Success Rate</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <img src="./images/check.svg" alt="" class="text-greenLight">
+                <span>Superior Checkout Experience</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <img src="./images/check.svg" alt="" class="text-greenLight">
+                <span>Easy to Integrate</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <img src="./images/check.svg" alt="" class="text-greenLight">
+                <span>Instant Settlements from day 1</span>
+              </li>
+              <li class="flex items-center space-x-2">
+                <img src="./images/check.svg" alt="" class="text-greenLight">
+                <span>In-depth Reporting and Insights</span>
+              </li>
+            </ul>
+
+            <!-- button and hyperlink -->
+            <div class="flex flex-row items-center space-x-4">
+              <button class="bg-lightBlue w-full md:w-fit flex flex-row items-center justify-center 
+                md:justify-start text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 
+                transition-all duration-200">
+                Sign Up Now
+                <svg
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="w-[14px] h-[14px] ml-3">
+                  <path fill="currentColor"
+                    d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="flex items-center ">
+                <a href="#" class="font-mullish font-bold text-lightBlue500 group-hover:text-grayBlue transition-all duration-200">Know more</a>
+                <img src="./images/chevron-right (1).svg" alt="" class="w-5 h-5 text-lightBlue500 group-hover:text-grayBlue transition-all duration-200" >
+
+                <i></i>
+              </div>
+            </div>
+          </div>
+          <img src="./images/payment-suite.png" alt="" class="hidden md:block md:max-w-[400px] lg:max-w-[600px] absolute right-0 lg:top-0 bottom-0" >
+        </div>
+      </div>
+
+
+    </section>
   
 </body>
 </html>
