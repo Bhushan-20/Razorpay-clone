@@ -68,3 +68,31 @@
       top: -160%;
     }
   }
+
+  
+
+  .bg-\[url\(\/images\/CTABg\.svg\)\] {
+    background-image: url(/images/CTABg.svg);
+  }
+  
+  .bg-cover {
+    background-size: cover;
+  }
+
+  .ctaBg {
+    background-size: 200% 100%;
+  }
+  
+  .ctaSection {
+    min-height: 650px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .ctaBg {
+      background-size: 100% 100%;
+    }
+  
+    .ctaSection {
+      min-height: 530px;
+    }
+  }
